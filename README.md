@@ -1,4 +1,13 @@
 # Inventory Management System
 
-- will update with aims after brainstorm (check trello)
-- also need to note lanugages used and additional packages as well
+## AIM
+
+To create an inventory management system using Python that has the ability to track inventory quantity
+
+The system should have a user-friendly i/o and a permissions system st the database is safe from tampering
+
+## TECHNOLOGIES
+
+Shall be using
+- Python
+    - sqlite3
