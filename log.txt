@@ -1,0 +1,3 @@
+ERROR ~ table inventory already exists
+ERROR ~ table id_lookup already exists
+[('01', 'bolt', '5'), ('02', 'washer', '5'), ('03', 'square_nut', '5')]
