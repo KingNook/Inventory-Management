@@ -1,3 +1,2 @@
-ERROR ~ table inventory already exists
-ERROR ~ table id_lookup already exists
-[('01', 'bolt', '5'), ('02', 'washer', '5'), ('03', 'square_nut', '5')]
+[2023/7/5] [18:57] 'TABLE inventory CREATED' 
+[2023/7/5] [18:57] 'TABLE id_lookup CREATED' 

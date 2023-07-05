@@ -1,7 +1,7 @@
 import sqlite3
 from sqlite3 import OperationalError
-
-log = open('log.txt', 'w')
+import utilities
+import time
 
 CON = sqlite3.connect('inventory.db')
 
@@ -18,13 +18,11 @@ def create_table(name, *args):
         return f'ERROR ~ {e}'
 
 # create one table for item quantities, one tabel for id lookup
-log.write(create_table('inventory', 'id', 'quantity') + '\n')
-log.write(create_table('id_lookup', 'id', 'name') + '\n')
+utilities.log(create_table('inventory', 'id', 'quantity'))
+utilities.log(create_table('id_lookup', 'id', 'name'))
 
 with open('test-data.txt', 'r') as data:
     records = [tuple(i.split(' ')) for i in data.read().split('\n')]
-
-    log.write(repr(records))
 
     KEY_inventory = (0, 2)
     KEY_id_lookup = (0, 1) 
