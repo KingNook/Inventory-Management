@@ -1,2 +1,0 @@
-[2023/7/5] [18:57] 'TABLE inventory CREATED' 
-[2023/7/5] [18:57] 'TABLE id_lookup CREATED' 
